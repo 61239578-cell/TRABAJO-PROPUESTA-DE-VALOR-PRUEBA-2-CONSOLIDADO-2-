@@ -20,45 +20,45 @@ var BODY={reloj:'Reloj de arena',pera:'Pera',manzana:'Manzana',rect:'Rectángulo
 var KN={vestido:'Vestidos',top:'Polos y tops',camisa:'Camisas',casaca:'Casacas',pantalon:'Pantalones',short:'Shorts',deportivo:'Ropa deportiva',accesorio:'Accesorios',falda:'Faldas'};
 var AGD={v2:['L','5XL'],b2:['5XL'],c3:['2XL'],p1:['3XL']};/* tallas agotadas de ejemplo (si usas CSV, manda la columna "agotadas") */
 var CAT=[
-['v1','vestido','Vestido envolvente','Elegante',125,139,'-10%',['reloj','pera','manzana'],['Terracota','Verde','Negro','Azul']],
-['v2','vestido','Vestido línea A','Casual',139,189,'-26%',['manzana','inv','rect'],['Azul','Mostaza','Negro','Verde']],
-['v3','vestido','Vestido midi fluido','Elegante',149,169,'-12%',['pera','reloj','rect'],['Verde','Terracota','Negro','Crema']],
-['b1','top','Blusa fluida','Moderno',69,79,'-13%',['pera','rect','reloj'],['Crema','Terracota','Verde','Azul']],
-['b2','top','Polo básico','Casual',49,59,'-17%',['reloj','pera','manzana','rect','inv'],['Negro','Crema','Azul','Mostaza']],
-['b3','top','Camisa oversize','Clásico',89,129,'-31%',['manzana','inv','rect'],['Crema','Azul','Negro','Verde']],
-['c1','casaca','Casaca larga','Urbano',199,219,'-9%',['manzana','reloj','rect'],['Negro','Azul','Terracota','Verde']],
-['c2','casaca','Casaca estructurada','Clásico',179,199,'-10%',['pera','rect'],['Negro','Crema','Mostaza','Azul']],
-['c3','casaca','Blazer largo','Elegante',219,299,'-27%',['pera','reloj','manzana'],['Negro','Azul','Crema','Terracota']],
-['p1','pantalon','Pantalón tiro alto','Moderno',139,159,'-13%',['reloj','manzana','rect'],['Negro','Azul','Mostaza','Verde']],
-['p2','pantalon','Pantalón recto','Clásico',115,129,'-11%',['inv','pera','reloj','rect'],['Negro','Crema','Azul','Terracota']],
-['p3','pantalon','Pantalón fluido','Casual',119,139,'-14%',['pera','manzana','rect'],['Crema','Verde','Negro','Mostaza']],
-['b4','top','Top cruzado','Moderno',79,89,'-11%',['reloj','pera','manzana'],['Verde','Negro','Terracota','Crema']],
-['b5','top','Blusa manga larga','Casual',75,85,'-12%',['pera','rect','inv'],['Mostaza','Crema','Negro','Verde']],
-['b6','top','Suéter tejido','Clásico',109,159,'-31%',['reloj','rect','manzana'],['Terracota','Verde','Crema','Negro']],
-['c4','casaca','Cárdigan largo','Casual',159,179,'-11%',['manzana','pera','rect'],['Crema','Negro','Azul','Terracota']],
-['c5','casaca','Bomber urbana','Urbano',169,189,'-11%',['inv','rect','reloj'],['Verde','Negro','Azul','Mostaza']],
-['p4','pantalon','Pantalón cargo','Urbano',129,149,'-13%',['pera','manzana','rect'],['Crema','Verde','Negro','Azul']],
-['p5','pantalon','Pantalón sastre','Elegante',149,169,'-12%',['reloj','pera','rect'],['Negro','Azul','Crema','Mostaza']],
-['m1','top','Polo clásico','Casual',49,69,'-29%',['rect','inv'],['Negro','Azul','Gris'],'hombre'],
-['m2','camisa','Camisa Oxford','Clásico',89,119,'-25%',['rect','inv'],['Blanco','Azul','Crema'],'hombre'],
-['m3','pantalon','Pantalón chino','Casual',119,139,'-14%',['rect','inv'],['Crema','Negro','Azul'],'hombre'],
-['m4','casaca','Casaca impermeable','Urbano',179,219,'-18%',['rect','inv'],['Negro','Azul','Verde'],'hombre'],
-['m5','top','Polo deportivo','Deportivo',59,79,'-25%',['rect','inv'],['Negro','Azul','Gris'],'hombre'],
-['m6','pantalon','Jogger deportivo','Deportivo',89,109,'-18%',['rect','inv'],['Negro','Gris'],'hombre'],
-['m7','top','Polo premium','Casual',59,69,'-14%',['rect','inv'],['Verde','Negro','Azul'],'hombre'],
-['m8','casaca','Casaca softshell','Urbano',149,189,'-21%',['rect','inv'],['Negro','Verde','Azul'],'hombre'],
-['m9','top','Suéter tejido','Clásico',89,109,'-18%',['rect','inv'],['Azul','Crema','Negro'],'hombre'],
-['m10','short','Short deportivo','Deportivo',59,79,'-25%',['rect','inv'],['Negro','Azul','Gris'],'hombre'],
-['m11','deportivo','Polerón con capucha','Deportivo',69,89,'-22%',['rect','inv'],['Gris','Negro','Azul'],'hombre'],
-['m12','accesorio','Mochila urbana','Urbano',84,99,'-15%',['rect','inv'],['Negro','Azul','Gris'],'hombre'],
-['v4','vestido','Vestido negro clásico','Elegante',139,159,'-13%',['reloj','pera','rect'],['Negro'],'mujer'],
-['p6','falda','Falda midi negra','Urbano',99,119,'-17%',['reloj','pera','rect'],['Negro'],'mujer'],
-['m13','top','Polo blanco esencial','Casual',45,55,'-18%',['rect','inv'],['Blanco'],'hombre'],
-['m14','camisa','Camisa a cuadros','Casual',95,119,'-20%',['rect','inv'],['Azul','Negro'],'hombre'],
-['m15','pantalon','Pantalón casual negro','Clásico',109,129,'-15%',['rect','inv'],['Negro'],'hombre'],
-['m16','casaca','Casaca beige urbana','Urbano',189,219,'-14%',['rect','inv'],['Crema'],'hombre'],
-['m17','accesorio','Gorra urbana negra','Urbano',35,45,'-22%',['rect','inv'],['Negro'],'hombre'],
-['m19','top','Polo deportivo ligero','Deportivo',55,69,'-20%',['rect','inv'],['Negro','Azul'],'hombre']
+['v1','vestido','Vestido envolvente','Elegante',104,119,'-13%',['reloj','pera','manzana'],['Terracota','Verde','Negro','Azul']],
+['v2','vestido','Vestido línea A','Casual',119,159,'-25%',['manzana','inv','rect'],['Azul','Mostaza','Negro','Verde']],
+['v3','vestido','Vestido midi fluido','Elegante',124,144,'-14%',['pera','reloj','rect'],['Verde','Terracota','Negro','Crema']],
+['b1','top','Blusa fluida','Moderno',59,64,'-8%',['pera','rect','reloj'],['Crema','Terracota','Verde','Azul']],
+['b2','top','Polo básico','Casual',39,49,'-20%',['reloj','pera','manzana','rect','inv'],['Negro','Crema','Azul','Mostaza']],
+['b3','top','Camisa oversize','Clásico',74,109,'-32%',['manzana','inv','rect'],['Crema','Azul','Negro','Verde']],
+['c1','casaca','Casaca larga','Urbano',169,184,'-8%',['manzana','reloj','rect'],['Negro','Azul','Terracota','Verde']],
+['c2','casaca','Casaca estructurada','Clásico',149,169,'-12%',['pera','rect'],['Negro','Crema','Mostaza','Azul']],
+['c3','casaca','Blazer largo','Elegante',184,254,'-28%',['pera','reloj','manzana'],['Negro','Azul','Crema','Terracota']],
+['p1','pantalon','Pantalón tiro alto','Moderno',119,134,'-11%',['reloj','manzana','rect'],['Negro','Azul','Mostaza','Verde']],
+['p2','pantalon','Pantalón recto','Clásico',99,109,'-9%',['inv','pera','reloj','rect'],['Negro','Crema','Azul','Terracota']],
+['p3','pantalon','Pantalón fluido','Casual',99,119,'-17%',['pera','manzana','rect'],['Crema','Verde','Negro','Mostaza']],
+['b4','top','Top cruzado','Moderno',64,74,'-14%',['reloj','pera','manzana'],['Verde','Negro','Terracota','Crema']],
+['b5','top','Blusa manga larga','Casual',64,69,'-7%',['pera','rect','inv'],['Mostaza','Crema','Negro','Verde']],
+['b6','top','Suéter tejido','Clásico',94,134,'-30%',['reloj','rect','manzana'],['Terracota','Verde','Crema','Negro']],
+['c4','casaca','Cárdigan largo','Casual',134,149,'-10%',['manzana','pera','rect'],['Crema','Negro','Azul','Terracota']],
+['c5','casaca','Bomber urbana','Urbano',144,159,'-9%',['inv','rect','reloj'],['Verde','Negro','Azul','Mostaza']],
+['p4','pantalon','Pantalón cargo','Urbano',109,124,'-12%',['pera','manzana','rect'],['Crema','Verde','Negro','Azul']],
+['p5','pantalon','Pantalón sastre','Elegante',124,144,'-14%',['reloj','pera','rect'],['Negro','Azul','Crema','Mostaza']],
+['m1','top','Polo clásico','Casual',39,59,'-34%',['rect','inv'],['Negro','Azul','Gris'],'hombre'],
+['m2','camisa','Camisa Oxford','Clásico',74,99,'-25%',['rect','inv'],['Blanco','Azul','Crema'],'hombre'],
+['m3','pantalon','Pantalón chino','Casual',99,119,'-17%',['rect','inv'],['Crema','Negro','Azul'],'hombre'],
+['m4','casaca','Casaca impermeable','Urbano',149,184,'-19%',['rect','inv'],['Negro','Azul','Verde'],'hombre'],
+['m5','top','Polo deportivo','Deportivo',49,64,'-23%',['rect','inv'],['Negro','Azul','Gris'],'hombre'],
+['m6','pantalon','Jogger deportivo','Deportivo',74,94,'-21%',['rect','inv'],['Negro','Gris'],'hombre'],
+['m7','top','Polo premium','Casual',49,59,'-17%',['rect','inv'],['Verde','Negro','Azul'],'hombre'],
+['m8','casaca','Casaca softshell','Urbano',124,159,'-22%',['rect','inv'],['Negro','Verde','Azul'],'hombre'],
+['m9','top','Suéter tejido','Clásico',74,94,'-21%',['rect','inv'],['Azul','Crema','Negro'],'hombre'],
+['m10','short','Short deportivo','Deportivo',49,64,'-23%',['rect','inv'],['Negro','Azul','Gris'],'hombre'],
+['m11','deportivo','Polerón con capucha','Deportivo',59,74,'-20%',['rect','inv'],['Gris','Negro','Azul'],'hombre'],
+['m12','accesorio','Mochila urbana','Urbano',69,84,'-18%',['rect','inv'],['Negro','Azul','Gris'],'hombre'],
+['v4','vestido','Vestido negro clásico','Elegante',119,134,'-11%',['reloj','pera','rect'],['Negro'],'mujer'],
+['p6','falda','Falda midi negra','Urbano',84,99,'-15%',['reloj','pera','rect'],['Negro'],'mujer'],
+['m13','top','Polo blanco esencial','Casual',39,44,'-11%',['rect','inv'],['Blanco'],'hombre'],
+['m14','camisa','Camisa a cuadros','Casual',79,99,'-20%',['rect','inv'],['Azul','Negro'],'hombre'],
+['m15','pantalon','Pantalón casual negro','Clásico',94,109,'-14%',['rect','inv'],['Negro'],'hombre'],
+['m16','casaca','Casaca beige urbana','Urbano',159,184,'-14%',['rect','inv'],['Crema'],'hombre'],
+['m17','accesorio','Gorra urbana negra','Urbano',29,39,'-26%',['rect','inv'],['Negro'],'hombre'],
+['m19','top','Polo deportivo ligero','Deportivo',44,59,'-25%',['rect','inv'],['Negro','Azul'],'hombre']
 ].map(function(a,i){return{id:a[0],k:a[1],n:a[2],e:a[3],pr:a[4],old:a[5],bd:a[6],b:a[7],c:a[8],gender:a[9]||'mujer',tint:TINT[i%4],ag:AGD[a[0]]||[],nuevo:['m13','m14','m15','m16','m17','m19','v4','p6'].indexOf(a[0])>-1}});
 try{var sm=JSON.parse(localStorage.getItem('sfc_m')||'null')}catch(e){var sm=null}
 var S={n:0,m:{altura:'',pecho:'',cintura:'',cadera:''},err:'',sx:-1,body:'',gender:'mujer',ref:'mujer',it:null,col:'',sz:-1,est:0,r:{},pend:null,out:'',mem:0,started:Date.now()};if(sm){S.m=sm;S.mem=1}
@@ -118,7 +118,7 @@ function refbox(){if(!IMG.ref_mujer&&!IMG.ref_hombre)return null;var k=(S.gender
 function holoAnalysis(m){var k=S.gender==='hombre'?'scan_hombre':'scan_mujer',labels=S.gender==='hombre'?['Pecho','Cintura','Cadera']:['Busto / pecho','Cintura','Cadera'];return'<div class="holo-ref holo-analysis"><div class="holo-person"><img src="'+(IMG[k]||'')+'" alt="Prototipo '+(S.gender==='hombre'?'masculino':'femenino')+' en posición de escaneo con brazos extendidos" loading="eager" decoding="async"><div class="holo-grid" aria-hidden="true"></div><svg class="holo-overlay" viewBox="0 0 100 100" aria-hidden="true"><g class="holo-lines"><path d="M8 29 H92 M17 43 H83 M21 56 H79 M28 70 H72 M35 82 H65"/><path d="M8 29 Q50 24 92 29 M17 43 Q50 39 83 43 M21 56 Q50 52 79 56"/><circle cx="50" cy="29" r="2"/><circle cx="50" cy="43" r="2"/><circle cx="50" cy="56" r="2"/><circle cx="50" cy="70" r="1.5"/></g></svg><i class="holo-sweep"></i><span class="holo-tag tag-chest">'+labels[0]+' · '+m.pecho+' cm</span><span class="holo-tag tag-waist">'+labels[1]+' · '+m.cintura+' cm</span><span class="holo-tag tag-hip">'+labels[2]+' · '+m.cadera+' cm</span><span class="holo-scan-status"><i></i> ESCANEO VISUAL</span></div><div class="holo-legend"><span><i></i> Pecho / busto</span><span><i></i> Cintura</span><span><i></i> Cadera</span><span><i></i> Pierna: medir aparte</span></div><p class="holo-note">La figura guía la posición de la cinta. Las medidas se ingresan manualmente; el efecto visual no escanea ni calcula medidas por sí solo.</p></div>'}
 
 /* ---------- Cinta de beneficios (marquee) y Looks de temporada ---------- */
-function FX_MARQ(){var t=['Precios rebajados en toda la colección','5% adicional en tu segunda prenda','10% adicional desde la tercera prenda','Envíos gratis desde S/ 149.90','Cambio de talla sin costo','Moda inclusiva de L a 5XL'],h=t.map(function(x){return'<span>'+x+'</span>'}).join('');return'<div class="fx-marq" role="region" aria-label="Beneficios de Smart Fit Cusco"><div class="fx-mt"><div>'+h+'</div><div aria-hidden="true">'+h+'</div></div></div>'}
+function FX_MARQ(){var t=['Precios rebajados en toda la colección','5% adicional en tu segunda prenda','10% adicional desde la tercera prenda','Envíos gratis desde S/ 129.90','Cambio de talla sin costo','Moda inclusiva de L a 5XL'],h=t.map(function(x){return'<span>'+x+'</span>'}).join('');return'<div class="fx-marq" role="region" aria-label="Beneficios de Smart Fit Cusco"><div class="fx-mt"><div>'+h+'</div><div aria-hidden="true">'+h+'</div></div></div>'}
 function lookbook(){var L=(CFG.LOOKBOOK||[]).filter(function(x){return IMG[x.k]});if(!L.length)return'';var ks=L.map(function(y){return y.k}).join('|');return'<section class="sec"><div class="w"><div class="hd"><h2>Looks de temporada</h2><a href="#tienda" class="up">Ver tienda</a></div><div class="lk" role="list">'+L.map(function(x,i){return'<button type="button" class="lkb" role="listitem" data-lbk="'+ks+'" data-lbi="'+i+'" aria-label="Ampliar foto: '+x.t+'"><span class="lki"><img class="ph" src="'+IMG[x.k]+'" alt="'+x.alt+'" loading="lazy" decoding="async" onerror="this.remove()"></span><em>'+x.t+'</em></button>'}).join('')+'</div></div></section>'}
 
 /* ---------- Páginas ---------- */
@@ -128,7 +128,7 @@ inicio:function(){return'<section class="hero"><div class="w"><div><p class="up"
 '<section class="sec"><div class="w"><div class="hd"><h2>Compra por categoría</h2><a href="#tienda" class="up">Ver todo</a></div><div class="tiles">'+Object.keys(KN).map(function(k,i){return'<a class="tile" href="#tienda/'+k+'"><div class="im" style="background:'+TINT[i%TINT.length]+'">'+pic('cat_'+k,mini(k,((CAT.filter(function(c){return c.k==k})[0]||CAT[0]).c[1]||'Negro')))+'<span class="fx-tov"><b>'+KN[k]+'</b><em>Ver colección →</em></span></div></a>'}).join('')+'</div></div></section>'+
 '<section class="ban"><div class="w"><div><p class="up">Asistente de tallas</p><h2>Deja de adivinar tu talla.</h2><p>Ingresa tus medidas, mira cómo te queda cada prenda y recíbela verificada en el probador. Gratis y sin registro.</p><a class="btn" href="#asistente">Probar el asistente</a></div><div class="steps"><div><b>01</b>Mide</div><div><b>02</b>Analiza</div><div><b>03</b>Prueba</div></div></div></section>'+
 '<section class="sec"><div class="w"><div class="hd"><div><p class="eyebrow">Recién llegados</p><h2>Nuevos favoritos, en tallas grandes</h2><p class="lab" style="margin:6px 0 0">Novedades para sumar a tu estilo, con precios y descuentos visibles.</p></div><a href="#tienda" class="up">Ver todo</a></div><div class="grid">'+CAT.filter(function(c){return c.nuevo}).map(card).join('')+'</div></div></section>'+
-lookbook()+'<section class="sec alt"><div class="w"><div class="ben"><div><b>Envíos gratis</b><p>En compras mayores a S/ 149.90</p></div><div><b>Cambio de talla</b><p>Sin costo en el probador</p></div><div><b>Pagos seguros</b><p>Tarjeta, Yape y Plin</p></div><div><b>Recojo en tienda</b><p>En Cusco, sin filas</p></div></div></div></section>'},
+lookbook()+'<section class="sec alt"><div class="w"><div class="ben"><div><b>Envíos gratis</b><p>En compras mayores a S/ 129.90</p></div><div><b>Cambio de talla</b><p>Sin costo en el probador</p></div><div><b>Pagos seguros</b><p>Tarjeta, Yape y Plin</p></div><div><b>Recojo en tienda</b><p>En Cusco, sin filas</p></div></div></div></section>'},
 tienda:function(){var f=PG.f||'todo',so=PG.so||'rel',q=(PG.q||'').toLowerCase(),cl=PG.cl||'',es=PG.st||'',gn=PG.gender||'todos',
  l=CAT.filter(function(c){return(gn=='todos'||c.gender==gn)&&(f=='todo'||(f=='fav'?FAV.indexOf(c.id)>-1:c.k==f))&&(!q||(c.n+' '+KN[c.k]+' '+c.e).toLowerCase().indexOf(q)>-1)&&(!cl||c.c.indexOf(cl)>-1)&&(!es||c.e==es)});
  if(so=='asc')l.sort(function(a,b){return a.pr-b.pr});if(so=='desc')l.sort(function(a,b){return b.pr-a.pr});if(so=='sil'&&S.body)l.sort(function(a,b){return(b.b.indexOf(S.body)>-1)-(a.b.indexOf(S.body)>-1)});
@@ -171,7 +171,7 @@ $('#cartb').onclick=function(){
   return '<div class="li">'+(IMG[x.id]?'<img class="lim" src="'+(IMG[x.id+'_'+x.col]||IMG[x.id])+'" alt="'+c.n+'">':'<svg viewBox="0 0 200 340">'+mini(c.k,x.col).replace(/<\/?svg[^>]*>/g,'')+'</svg>')+'<div><b>'+c.n+'</b><br>'+x.col+' · Talla '+x.sz+'<br>'+(save?'<s>S/ '+base.toFixed(2)+ '</s> <b>S/ '+price.toFixed(2)+'</b><br><small style="color:var(--acc)">Oferta adicional: -'+Math.round(rate*100)+'%</small>':'S/ '+base.toFixed(2))+'</div><div style="display:flex;flex-direction:column;gap:6px;flex:none"><button class="chip" data-rm="'+i+'">Quitar</button><button class="chip" data-cs="'+i+'">Cambiar talla</button></div></div>';
  }).join('');
  var t=Math.round((subtotal-discount)*100)/100;
- $('#cart').innerHTML=CART.length?lines+'<div class="promo-cart" style="padding:12px;background:var(--soft);margin:12px 0"><b>Beneficios aplicados</b><p style="margin:6px 0 0;font-size:13px">2.ª prenda: 5% adicional · 3.ª prenda y siguientes: 10% adicional.</p></div><p style="margin:16px 0 4px">Subtotal de ofertas: S/ '+subtotal.toFixed(2)+'</p>'+(discount?'<p style="margin:4px 0;color:var(--acc)">Descuento por compra múltiple: − S/ '+discount.toFixed(2)+'</p>':'')+'<p class="cart-total"><span>Total estimado</span><b>S/ '+t.toFixed(2)+'</b></p><div class="ship-progress"><div class="ship-copy"><b>'+(t>=149.9?'¡Tu envío es gratis!':'Te faltan S/ '+Math.max(0,149.9-t).toFixed(2)+' para el envío gratis')+'</b><span>Envío gratis desde S/ 149.90</span></div><div class="ship-track"><i style="width:'+Math.min(100,Math.round(t/149.9*100))+'%"></i></div></div><div style="display:grid;gap:8px;margin:0 0 12px"><p class="lab" style="margin:0"><b>Tus datos para el pedido</b></p><input id="pcn" placeholder="Tu nombre" autocomplete="name" value="'+(CLI.n||'').replace(/"/g,'')+'"><input id="pct" placeholder="Celular / WhatsApp" inputmode="tel" autocomplete="tel" value="'+(CLI.t||'').replace(/"/g,'')+'"></div><button class="btn" id="rsv" style="width:100%">Solicitar reserva por WhatsApp</button><a class="btn o" id="wa" target="_blank" rel="noopener" style="width:100%;text-align:center;margin-top:8px" href="https://wa.me/'+(CFG.WHATSAPP||'51938703934')+'?text='+encodeURIComponent('Hola Smart Fit Cusco, quiero pedir: '+CART.map(function(x){return byId(x.id).n+' ('+x.col+', talla '+x.sz+')'}).join(', ')+'. Total: S/ '+t.toFixed(2))+'">Pedir por WhatsApp</a><button class="btn" id="payn" style="width:100%;margin-top:8px"'+((CFG.PAGO&&CFG.PAGO.ACTIVO)?'':' disabled title="Disponible pronto"')+'>Pagar ahora</button>':'<p>Tu bolsa está vacía.</p>';
+ $('#cart').innerHTML=CART.length?lines+'<div class="promo-cart" style="padding:12px;background:var(--soft);margin:12px 0"><b>Beneficios aplicados</b><p style="margin:6px 0 0;font-size:13px">2.ª prenda: 5% adicional · 3.ª prenda y siguientes: 10% adicional.</p></div><p style="margin:16px 0 4px">Subtotal de ofertas: S/ '+subtotal.toFixed(2)+'</p>'+(discount?'<p style="margin:4px 0;color:var(--acc)">Descuento por compra múltiple: − S/ '+discount.toFixed(2)+'</p>':'')+'<p class="cart-total"><span>Total estimado</span><b>S/ '+t.toFixed(2)+'</b></p><div class="ship-progress"><div class="ship-copy"><b>'+(t>=129.9?'¡Tu envío es gratis!':'Te faltan S/ '+Math.max(0,129.9-t).toFixed(2)+' para el envío gratis')+'</b><span>Envío gratis desde S/ 129.90</span></div><div class="ship-track"><i style="width:'+Math.min(100,Math.round(t/129.9*100))+'%"></i></div></div><div style="display:grid;gap:8px;margin:0 0 12px"><p class="lab" style="margin:0"><b>Tus datos para el pedido</b></p><input id="pcn" placeholder="Tu nombre" autocomplete="name" value="'+(CLI.n||'').replace(/"/g,'')+'"><input id="pct" placeholder="Celular / WhatsApp" inputmode="tel" autocomplete="tel" value="'+(CLI.t||'').replace(/"/g,'')+'"></div><button class="btn" id="rsv" style="width:100%">Solicitar reserva por WhatsApp</button><a class="btn o" id="wa" target="_blank" rel="noopener" style="width:100%;text-align:center;margin-top:8px" href="https://wa.me/'+(CFG.WHATSAPP||'51938703934')+'?text='+encodeURIComponent('Hola Smart Fit Cusco, quiero pedir: '+CART.map(function(x){return byId(x.id).n+' ('+x.col+', talla '+x.sz+')'}).join(', ')+'. Total: S/ '+t.toFixed(2))+'">Pedir por WhatsApp</a><button class="btn" id="payn" style="width:100%;margin-top:8px"'+((CFG.PAGO&&CFG.PAGO.ACTIVO)?'':' disabled title="Disponible pronto"')+'>Pagar ahora</button>':'<p>Tu bolsa está vacía.</p>';
  $('#drw').classList.add('on');
  document.querySelectorAll('[data-rm]').forEach(function(b){b.onclick=function(){CART.splice(+b.dataset.rm,1);cc();$('#cartb').onclick()}});
  if($('#wa'))$('#wa').onclick=function(e){var o=pedido('WhatsApp',t);if(!o){e.preventDefault();return}this.href='https://wa.me/'+(CFG.WHATSAPP||'51938703934')+'?text='+encodeURIComponent('Hola Smart Fit Cusco, soy '+o.cliente+'. Pedido '+o.pedido_id+': '+o.items+'. Total con descuentos: S/ '+o.total.toFixed(2))};

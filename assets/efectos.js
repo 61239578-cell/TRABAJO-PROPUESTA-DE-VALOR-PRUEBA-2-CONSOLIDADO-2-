@@ -343,7 +343,7 @@
   /* ---------- 14. IDIOMA ES / EN ---------- */
   var lang = sget('sfc_lang') || CFG.IDIOMA || 'es', TR = [];
   var D = {
-    'Envíos gratis en compras mayores a S/ 169.90 · Cambio de talla sin costo': 'Free shipping on orders over S/ 169.90 · Free size exchange',
+    'Envíos gratis en compras mayores a S/ 129.90 · Cambio de talla sin costo': 'Free shipping on orders over S/ 129.90 · Free size exchange',
     'Saltar al contenido': 'Skip to content', 'Inicio': 'Home', 'Tienda': 'Shop', 'Asistente de tallas': 'Size assistant', 'Guías de estilo': 'Style guides',
     'Nosotros': 'About us', 'Tu opinión': 'Your feedback', 'Contacto': 'Contact', 'Bolsa (': 'Bag (', 'Menú': 'Menu',
     'Colección 2026 · Tallas L a 5XL': '2026 Collection · Sizes L to 5XL', 'Moda que te queda como a ti.': 'Fashion that fits you.',
@@ -351,10 +351,10 @@
     'Ver colección': 'View collection', 'Encuentra tu talla': 'Find your size', 'Compra por categoría': 'Shop by category', 'Ver todo': 'View all', 'Ver tienda': 'View shop',
     'Vestidos': 'Dresses', 'Tops': 'Tops', 'Casacas': 'Jackets', 'Pantalones': 'Trousers', 'Ver colección →': 'View collection →',
     'Deja de adivinar tu talla.': 'Stop guessing your size.', 'Probar el asistente': 'Try the assistant', 'Mide': 'Measure', 'Analiza': 'Analyze', 'Prueba': 'Try on',
-    'Nuevo en tienda': 'New in', 'Looks de temporada': 'Season looks', 'Envíos gratis': 'Free shipping', 'En compras mayores a S/ 169.90': 'On orders over S/ 169.90',
+    'Nuevo en tienda': 'New in', 'Looks de temporada': 'Season looks', 'Envíos gratis': 'Free shipping', 'En compras mayores a S/ 129.90': 'On orders over S/ 129.90',
     'Cambio de talla': 'Size exchange', 'Sin costo en el probador': 'Free at the fitting room', 'Pagos seguros': 'Secure payments', 'Tarjeta, Yape y Plin': 'Card, Yape and Plin',
     'Recojo en tienda': 'Store pickup', 'En Cusco, sin filas': 'In Cusco, no lines',
-    'Envíos gratis desde S/ 169.90': 'Free shipping from S/ 169.90', 'Cambio de talla sin costo': 'Free size exchange', 'Asistente de tallas gratis': 'Free size assistant',
+    'Envíos gratis desde S/ 129.90': 'Free shipping from S/ 129.90', 'Cambio de talla sin costo': 'Free size exchange', 'Asistente de tallas gratis': 'Free size assistant',
     'Recojo en tienda en Cusco': 'Store pickup in Cusco', 'Moda inclusiva de L a 5XL': 'Inclusive fashion from L to 5XL',
     'Toda la colección': 'Full collection', 'Mis favoritos': 'My favorites', 'Todo': 'All', 'Ordenar': 'Sort', 'Más relevantes': 'Most relevant', 'Precio: menor a mayor': 'Price: low to high',
     'Precio: mayor a menor': 'Price: high to low', 'Para mi silueta': 'For my shape', 'Buscar prendas…': 'Search clothes…', 'Todos los colores': 'All colors', 'Todos los estilos': 'All styles',
