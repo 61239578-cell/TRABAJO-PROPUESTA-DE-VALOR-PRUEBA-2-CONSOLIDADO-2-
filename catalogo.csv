@@ -1,40 +1,40 @@
 ﻿id,categoria,nombre,estilo,precio,precio_anterior,etiqueta,siluetas,colores,tela,cuidados,agotadas,genero
-v1,vestido,Vestido envolvente,Elegante,104,119,-13%,reloj;pera;manzana,Terracota;Verde;Negro;Azul,Crepé elástico,"Lavar en frío, no usar secadora",,mujer
-v2,vestido,Vestido línea A,Casual,119,159,-25%,manzana;inv;rect,Azul;Mostaza;Negro;Verde,Crepé elástico,"Lavar en frío, no usar secadora",L;5XL,mujer
-v3,vestido,Vestido midi fluido,Elegante,124,144,-14%,pera;reloj;rect,Verde;Terracota;Negro;Crema,Crepé elástico,"Lavar en frío, no usar secadora",,mujer
-b1,top,Blusa fluida,Moderno,59,64,-8%,pera;rect;reloj,Crema;Terracota;Verde;Azul,Algodón con elastano,Lavar a máquina en frío,,mujer
+v1,vestido,Vestido envolvente,Elegante,99,119,-17%,reloj;pera;manzana,Terracota;Verde;Negro;Azul,Crepé elástico,"Lavar en frío, no usar secadora",,mujer
+v2,vestido,Vestido línea A,Casual,109,139,-22%,manzana;inv;rect,Azul;Mostaza;Negro;Verde,Crepé elástico,"Lavar en frío, no usar secadora",L;5XL,mujer
+v3,vestido,Vestido midi fluido,Elegante,114,135,-16%,pera;reloj;rect,Verde;Terracota;Negro;Crema,Crepé elástico,"Lavar en frío, no usar secadora",,mujer
+b1,top,Blusa fluida,Moderno,59,69,-14%,pera;rect;reloj,Crema;Terracota;Verde;Azul,Algodón con elastano,Lavar a máquina en frío,,mujer
 b2,top,Polo básico,Casual,39,49,-20%,reloj;pera;manzana;rect;inv,Negro;Crema;Azul;Mostaza,Algodón con elastano,Lavar a máquina en frío,5XL,mujer
 b3,top,Camisa oversize,Clásico,74,109,-32%,manzana;inv;rect,Crema;Azul;Negro;Verde,Algodón con elastano,Lavar a máquina en frío,,mujer
 b4,top,Top cruzado,Moderno,64,74,-14%,reloj;pera;manzana,Verde;Negro;Terracota;Crema,Algodón con elastano,Lavar a máquina en frío,,mujer
-b5,top,Blusa manga larga,Casual,64,69,-7%,pera;rect;inv,Mostaza;Crema;Negro;Verde,Algodón con elastano,Lavar a máquina en frío,,mujer
+b5,top,Blusa manga larga,Casual,64,74,-14%,pera;rect;inv,Mostaza;Crema;Negro;Verde,Algodón con elastano,Lavar a máquina en frío,,mujer
 b6,top,Suéter tejido,Clásico,94,134,-30%,reloj;rect;manzana,Terracota;Verde;Crema;Negro,Tejido suave,Lavar a mano,,mujer
-c1,casaca,Casaca larga,Urbano,169,184,-8%,manzana;reloj;rect,Negro;Azul;Terracota;Verde,Mezcla de poliéster,Lavado en seco o a mano,,mujer
-c2,casaca,Casaca estructurada,Clásico,149,169,-12%,pera;rect,Negro;Crema;Mostaza;Azul,Mezcla de poliéster,Lavado en seco o a mano,,mujer
-c3,casaca,Blazer largo,Elegante,184,254,-28%,pera;reloj;manzana,Negro;Azul;Crema;Terracota,Mezcla de poliéster,Lavado en seco o a mano,2XL,mujer
-c4,casaca,Cárdigan largo,Casual,134,149,-10%,manzana;pera;rect,Crema;Negro;Azul;Terracota,Tejido suave,Lavar a mano,,mujer
-c5,casaca,Bomber urbana,Urbano,144,159,-9%,inv;rect;reloj,Verde;Negro;Azul;Mostaza,Mezcla de poliéster,Lavado en seco o a mano,,mujer
-p1,pantalon,Pantalón tiro alto,Moderno,119,134,-11%,reloj;manzana;rect,Negro;Azul;Mostaza;Verde,Algodón stretch,"Lavar a máquina, planchar a temperatura media",3XL,mujer
-p2,pantalon,Pantalón recto,Clásico,99,109,-9%,inv;pera;reloj;rect,Negro;Crema;Azul;Terracota,Algodón stretch,"Lavar a máquina, planchar a temperatura media",,mujer
-p3,pantalon,Pantalón fluido,Casual,99,119,-17%,pera;manzana;rect,Crema;Verde;Negro;Mostaza,Algodón stretch,"Lavar a máquina, planchar a temperatura media",,mujer
-p4,pantalon,Pantalón cargo,Urbano,109,124,-12%,pera;manzana;rect,Crema;Verde;Negro;Azul,Algodón stretch,"Lavar a máquina, planchar a temperatura media",,mujer
-p5,pantalon,Pantalón sastre,Elegante,124,144,-14%,reloj;pera;rect,Negro;Azul;Crema;Mostaza,Algodón stretch,"Lavar a máquina, planchar a temperatura media",,mujer
+c1,casaca,Casaca larga,Urbano,119,149,-20%,manzana;reloj;rect,Negro;Azul;Terracota;Verde,Mezcla de poliéster,Lavado en seco o a mano,,mujer
+c2,casaca,Casaca estructurada,Clásico,109,129,-16%,pera;rect,Negro;Crema;Mostaza;Azul,Mezcla de poliéster,Lavado en seco o a mano,,mujer
+c3,casaca,Blazer largo,Elegante,119,159,-25%,pera;reloj;manzana,Negro;Azul;Crema;Terracota,Mezcla de poliéster,Lavado en seco o a mano,2XL,mujer
+c4,casaca,Cárdigan largo,Casual,99,119,-17%,manzana;pera;rect,Crema;Negro;Azul;Terracota,Tejido suave,Lavar a mano,,mujer
+c5,casaca,Bomber urbana,Urbano,109,129,-16%,inv;rect;reloj,Verde;Negro;Azul;Mostaza,Mezcla de poliéster,Lavado en seco o a mano,,mujer
+p1,pantalon,Pantalón tiro alto,Moderno,109,129,-16%,reloj;manzana;rect,Negro;Azul;Mostaza;Verde,Algodón stretch,"Lavar a máquina, planchar a temperatura media",3XL,mujer
+p2,pantalon,Pantalón recto,Clásico,89,104,-14%,inv;pera;reloj;rect,Negro;Crema;Azul;Terracota,Algodón stretch,"Lavar a máquina, planchar a temperatura media",,mujer
+p3,pantalon,Pantalón fluido,Casual,94,109,-14%,pera;manzana;rect,Crema;Verde;Negro;Mostaza,Algodón stretch,"Lavar a máquina, planchar a temperatura media",,mujer
+p4,pantalon,Pantalón cargo,Urbano,99,119,-17%,pera;manzana;rect,Crema;Verde;Negro;Azul,Algodón stretch,"Lavar a máquina, planchar a temperatura media",,mujer
+p5,pantalon,Pantalón sastre,Elegante,109,129,-16%,reloj;pera;rect,Negro;Azul;Crema;Mostaza,Algodón stretch,"Lavar a máquina, planchar a temperatura media",,mujer
 m1,top,Polo clásico,Casual,39,59,-34%,rect;inv,Negro;Azul;Gris,Algodón con elastano,Lavar a máquina en frío,,hombre
 m2,camisa,Camisa Oxford,Clásico,74,99,-25%,rect;inv,Blanco;Azul;Crema,Algodón,Lavar a máquina en frío,,hombre
-m3,pantalon,Pantalón chino,Casual,99,119,-17%,rect;inv,Crema;Negro;Azul,Algodón stretch,Lavar a máquina en frío,,hombre
-m4,casaca,Casaca impermeable,Urbano,149,184,-19%,rect;inv,Negro;Azul;Verde,Poliéster impermeable,Lavar según etiqueta,,hombre
+m3,pantalon,Pantalón chino,Casual,94,109,-14%,rect;inv,Crema;Negro;Azul,Algodón stretch,Lavar a máquina en frío,,hombre
+m4,casaca,Casaca impermeable,Urbano,119,149,-20%,rect;inv,Negro;Azul;Verde,Poliéster impermeable,Lavar según etiqueta,,hombre
 m5,top,Polo deportivo,Deportivo,49,64,-23%,rect;inv,Negro;Azul;Gris,Poliéster transpirable,Lavar a máquina en frío,,hombre
 m6,pantalon,Jogger deportivo,Deportivo,74,94,-21%,rect;inv,Negro;Gris,Algodón con elastano,Lavar a máquina en frío,,hombre
 m7,top,Polo premium,Casual,49,59,-17%,rect;inv,Verde;Negro;Azul,Algodón pima,Lavar a máquina en frío,,hombre
-m8,casaca,Casaca softshell,Urbano,124,159,-22%,rect;inv,Negro;Verde;Azul,Poliéster resistente al viento,Lavar según etiqueta,,hombre
+m8,casaca,Casaca softshell,Urbano,109,139,-22%,rect;inv,Negro;Verde;Azul,Poliéster resistente al viento,Lavar según etiqueta,,hombre
 m9,top,Suéter tejido,Clásico,74,94,-21%,rect;inv,Azul;Crema;Negro,Tejido suave,Lavar a mano,,hombre
 m10,short,Short deportivo,Deportivo,49,64,-23%,rect;inv,Negro;Azul;Gris,Poliéster de secado rápido,Lavar a máquina en frío,,hombre
 m11,deportivo,Polerón con capucha,Deportivo,59,74,-20%,rect;inv,Gris;Negro;Azul,Algodón y poliéster,Lavar a máquina en frío,,hombre
 m12,accesorio,Mochila urbana,Urbano,69,84,-18%,rect;inv,Negro;Azul;Gris,Poliéster,Limpiar con paño húmedo,,hombre
-v4,vestido,Vestido negro clásico,Elegante,119,134,-11%,reloj;pera;rect,Negro,Crepé elástico,"Lavar en frío, no usar secadora",,mujer
-p6,falda,Falda midi negra,Urbano,84,99,-15%,reloj;pera;rect,Negro,Tela fluida,Lavar en frío,,mujer
-m13,top,Polo blanco esencial,Casual,39,44,-11%,rect;inv,Blanco,Algodón con elastano,Lavar a máquina en frío,,hombre
+v4,vestido,Vestido negro clásico,Elegante,104,124,-16%,reloj;pera;rect,Negro,Crepé elástico,"Lavar en frío, no usar secadora",,mujer
+p6,falda,Falda midi negra,Urbano,79,94,-16%,reloj;pera;rect,Negro,Tela fluida,Lavar en frío,,mujer
+m13,top,Polo blanco esencial,Casual,39,49,-20%,rect;inv,Blanco,Algodón con elastano,Lavar a máquina en frío,,hombre
 m14,camisa,Camisa a cuadros,Casual,79,99,-20%,rect;inv,Azul;Negro,Algodón,Lavar a máquina en frío,,hombre
-m15,pantalon,Pantalón casual negro,Clásico,94,109,-14%,rect;inv,Negro,Algodón stretch,Lavar a máquina en frío,,hombre
-m16,casaca,Casaca beige urbana,Urbano,159,184,-14%,rect;inv,Crema,Mezcla de poliéster,Lavar según etiqueta,,hombre
+m15,pantalon,Pantalón casual negro,Clásico,89,109,-18%,rect;inv,Negro,Algodón stretch,Lavar a máquina en frío,,hombre
+m16,casaca,Casaca beige urbana,Urbano,119,149,-20%,rect;inv,Crema,Mezcla de poliéster,Lavar según etiqueta,,hombre
 m17,accesorio,Gorra urbana negra,Urbano,29,39,-26%,rect;inv,Negro,Algodón,Limpiar con paño húmedo,,hombre
 m19,top,Polo deportivo ligero,Deportivo,44,59,-25%,rect;inv,Negro;Azul,Poliéster transpirable,Lavar a máquina en frío,,hombre
