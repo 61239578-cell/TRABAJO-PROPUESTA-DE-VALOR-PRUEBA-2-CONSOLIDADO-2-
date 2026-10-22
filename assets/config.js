@@ -10,7 +10,7 @@
 //    - Foto por color: v1_Terracota, v1_Verde, ... (cambia al elegir ese color).
 // 3) EFECTOS: cada efecto se apaga poniendo false. EFECTOS: false apaga todos.
 window.CONFIG = {
-  ENDPOINT: 'https://script.google.com/macros/s/AKfycbyFgqCvYlm0JDaQAjJfeoB0z84z1ZkEza320XmoQVY15NaumeAlNzbNsK_kZuQ8K1o/exec',
+  ENDPOINT: 'https://script.google.com/macros/s/AKfycbyCb85L7jRcH5swdxyK5Zh2dafuJIcLt8rBlO72OMiG8JX7gCrqK5o6P4JkCIRQAcOE/exec',
   WHATSAPP: '51938703934',   // WhatsApp de Smart Fit Cusco: +51 938 703 934
   CATALOGO_URL: 'https://script.google.com/macros/s/AKfycbyFgqCvYlm0JDaQAjJfeoB0z84z1ZkEza320XmoQVY15NaumeAlNzbNsK_kZuQ8K1o/exec?catalogo=1', // Catálogo servido por Apps Script desde la pestaña Catalogo
   SITIO_URL: '',             // ej: 'https://tuusuario.github.io/smart-fit-cusco' (mejora las vistas previas al compartir)
